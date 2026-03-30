@@ -1,0 +1,31 @@
+{
+  "total_slices": 6650,
+  "n_negative": 4427,
+  "n_positive": 2223,
+  "n_ischemic": 1130,
+  "n_hemorrhagic": 1093,
+  "mean_lesion_volume_ml": 106.58685403823853,
+  "median_lesion_volume_ml": 107.88874816894531,
+  "std_lesion_volume_ml": 26.23632141152415,
+  "min_lesion_volume_ml": 41.87624740600586,
+  "max_lesion_volume_ml": 252.15249633789062,
+  "split": {
+    "train": {
+      "total": 4654,
+      "positive": 1556,
+      "negative": 3098
+    },
+    "val": {
+      "total": 664,
+      "positive": 222,
+      "negative": 442
+    },
+    "test": {
+      "total": 1332,
+      "positive": 445,
+      "negative": 887
+    }
+  },
+  "masks_analyzed": 200,
+  "masks_with_lesion": 200
+}

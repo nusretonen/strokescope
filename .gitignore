@@ -1,0 +1,33 @@
+# ── Datasets (too large / restricted redistribution) ──────────────────
+/tmp/stroke_dataset/
+data/
+*.zip
+*.7z
+*.7z.001
+*.7z.002
+
+# ── Model weights (5.4 MB — within GitHub 100 MB limit, tracked directly)
+# results/strokescope_best.pt
+
+# ── Word drafts (binary, large) ────────────────────────────────────────
+*.docx
+~$*.docx
+
+# ── Superseded scripts ────────────────────────────────────────────────
+code/04_generate_word.py
+code/06_final_word.py
+
+# ── Manuscript drafts (superseded) ───────────────────────────────────
+manuscript_draft_v1.md
+manuscript_final_v2.md
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# ── macOS ─────────────────────────────────────────────────────────────
+.DS_Store
